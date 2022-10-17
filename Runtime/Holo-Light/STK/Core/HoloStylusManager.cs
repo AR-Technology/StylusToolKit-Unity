@@ -334,7 +334,7 @@ namespace HoloLight.STK.Core
                 _nativePairingManager.EmptyStreamHandling();
             }
 
-            if (data[0] == 0xFE && DataParser.IsInitialized && data.Length == 23)
+            if (data[0] == 0xFE && DataParser.IsInitialized && (data.Length == 31 || data.Length == 35 || data.Length == 20 || data.Length == 23))
             {
                 _stylusFrame = DataParser.ParseFrame(data);
             }
