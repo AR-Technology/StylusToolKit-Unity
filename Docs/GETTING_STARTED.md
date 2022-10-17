@@ -11,12 +11,13 @@ To get started with the Stylus Toolkit (STK), you will need:
 ## Step by Step Guide
 
 1. Import MRTK into your Project ([Getting Started with MRTK](https://docs.microsoft.com/de-de/windows/mixed-reality/mrtk-unity/#getting-started-with-mrtk)) - if MRTK is not included yet
-2. Import Stylus Toolkit (STK)
-- Open in Unity → Window → Package Manager (2 different ways)
+2. Import Stylus Toolkit (STK):
+  - Open in Unity → Window → Package Manager (2 different ways)
   - Add package from disk … (Download the Package and extract it on your hard drive and select the package.json file => the Package is attached in the [release section](https://github.com/AR-Technology/StylusToolKit-Unity/releases))
   - Add package from git URL … (https://github.com/AR-Technology/StylusToolKit-Unity.git)
+  - In Player settings, enable the Bluetooth capability (in Project settings → Player → UWP → Publishing → Capabilities)
 
-Recommended Step to get into STK:
+### Recommended Step to get into STK:
 
 3. Select the Stylus XR Toolkit Package and Import the Samples by clicking on “Import into Project”
 
