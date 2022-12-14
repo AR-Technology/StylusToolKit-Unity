@@ -110,7 +110,11 @@ namespace HoloLight.STK.Core
         {
             _connectingtimeOut.Reset();
             _connectingtimeOut.Stop();
-            StopCoroutine(_searching);
+
+            if (_searching != null)
+            {
+                StopCoroutine(_searching);
+            }
             _searching = null;
             _manager.Connector.UnRegisterDataCallback(OnConnected);
 
