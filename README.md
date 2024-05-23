@@ -15,7 +15,7 @@ To take advantage of Stylus XR’s various capabilities, have a look at [Getting
 
 > :white_check_mark: For MRTK 2.6 read the guide [here](Docs/MRTK26.md)
 
-Have a look at our [Quick Start Guide](https://support.holo-light.com/hc/en-us/articles/360015956079), which helps you on getting started with setup the device correctly for first use.
+Have a look at our [Quick Start Guide](https://mxr-tactics.atlassian.net/wiki/external/M2M4MGY0MTcxNjFlNDExMGIxNTAxOWU0M2FkYmMyYmI), which helps you on getting started with setup the device correctly for first use.
 
 ## Docs
 
